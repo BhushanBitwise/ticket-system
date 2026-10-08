@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:3000/api/users/agents
+method: POST
+headers:
+  Authorization: "{{bearer_token_194a}}"
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Rahul Agent\",\r
+
+    \  \"email\": \"rahul@company.com\",\r
+
+    \  \"password\": \"Agent@123\"\r
+
+    }"
+order: 2000

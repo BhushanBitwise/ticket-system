@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:3000/api/requests/assigned
+method: GET
+headers:
+  Authorization: "{{bearer_token_185d}}"
+body:
+  type: json
+  content: ""
+order: 1000

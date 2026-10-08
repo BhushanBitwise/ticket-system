@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/api/requests/6aba8d9ff587a524a9f8cba0/resolve
+method: PATCH
+headers:
+  Authorization: "{{bearer_token_185d}}"
+body:
+  type: json
+  content: "{\r
+
+    \  \"resolutionNote\": \"Wi-Fi adapter driver updated and network connection tested successfully.\"\r
+
+    }"
+order: 3000

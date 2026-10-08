@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:3000/api/requests/6aba8d9ff587a524a9f8cba0/start
+method: PATCH
+headers:
+  Authorization: "{{bearer_token_185d}}"
+body:
+  type: json
+  content: "{\r
+
+    \  \"message\": \"Request moved to IN_PROGRESS\",\r
+
+    \  \"request\": {\r
+
+    \    \"status\": \"IN_PROGRESS\"\r
+
+    \  }\r
+
+    }"
+order: 2000

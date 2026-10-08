@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:3000/api/requests/6aba88da413b5fceb08db2a6
+method: GET
+headers:
+  Authorization: "{{bearer_token_1dkj}}"
+order: 2000

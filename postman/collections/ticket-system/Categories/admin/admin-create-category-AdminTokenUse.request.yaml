@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/api/categories
+method: POST
+headers:
+  Authorization: bearer {{json_web_token_0z84}}
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Access/Permission\",\r
+
+    \  \"description\": \"System, application and resource access requests\"\r
+
+    }"
+order: 1000

@@ -1,0 +1,19 @@
+$kind: http-request
+url: http://localhost:3000/api/requests
+method: POST
+headers:
+  Authorization: "{{bearer_token_1c0m}}"
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Laptop Wi-Fi not working\",\r
+
+    \  \"description\": \"My office laptop cannot connect to the company Wi-Fi network.\",\r
+
+    \  \"categoryId\": \"6ab956bb432304b7e39251ca\",\r
+
+    \  \"priority\": \"HIGH\"\r
+
+    }"
+order: 1000

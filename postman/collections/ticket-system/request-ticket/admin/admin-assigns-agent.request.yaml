@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/api/requests/6aba8d9ff587a524a9f8cba0/assign
+method: PATCH
+headers:
+  Authorization: "{{bearer_token_1dkj}}"
+body:
+  type: json
+  content: "{\r
+
+    \  \"agentId\": \"6ab945c6898978ebdbed013b\"\r
+
+    }"
+order: 3000

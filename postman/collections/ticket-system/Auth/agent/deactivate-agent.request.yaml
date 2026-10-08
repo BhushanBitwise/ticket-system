@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://localhost:3000/api/users/agents/6ab945c6898978ebdbed013b/status
+method: PATCH
+headers:
+  Authorization: "{{bearer_token_194a}}"
+body:
+  type: json
+  content: "{\r\n  \"isActive\": true\r\n}"
+order: 4000

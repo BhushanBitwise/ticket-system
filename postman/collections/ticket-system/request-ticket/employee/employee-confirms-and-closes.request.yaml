@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:3000/api/requests/6aba8d9ff587a524a9f8cba0/close
+method: PATCH
+headers:
+  Authorization: "{{bearer_token_1c0m}}"
+body:
+  type: json
+  content: "{\r
+
+    \  \"message\": \"Request closed successfully\",\r
+
+    \  \"request\": {\r
+
+    \    \"status\": \"CLOSED\",\r
+
+    \    \"closedAt\": \"...\"\r
+
+    \  }\r
+
+    }"
+order: 3000

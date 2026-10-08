@@ -1,0 +1,5 @@
+workspace:
+  id: 6503dc16-9503-4e8e-a34a-5becb86399dc
+cloudResources:
+  collections:
+    ../postman/collections/ticket-system: 43332103-8d5917bd-be9e-40e3-bd58-4452a7670c1b

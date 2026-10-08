@@ -1,0 +1,45 @@
+$kind: collection
+description: ""
+variables:
+  - key: bearer_token_0v4e
+    secret: true
+  - key: json_web_token_0yp6
+    secret: true
+  - key: json_web_token_0zf3
+    secret: true
+  - key: bearer_token_194a
+    secret: true
+  - key: json_web_token_0z84
+    secret: true
+  - key: json_web_token_0791
+    secret: true
+  - key: json_web_token_11xn
+    secret: true
+  - key: bearer_token_1c0m
+    secret: true
+  - key: json_web_token_0e5r
+    secret: true
+  - key: bearer_token_1dkj
+    secret: true
+  - key: json_web_token_0b3d
+    secret: true
+  - key: bearer_token_185d
+    secret: true
+  - key: json_web_token_19ls
+    secret: true
+  - key: bearer_token_16lx
+    secret: true
+  - key: json_web_token_0nrv
+    secret: true
+  - key: bearer_token_0cmb
+    secret: true
+  - key: json_web_token_0xgo
+    secret: true
+  - key: bearer_token_0xy3
+    secret: true
+  - key: json_web_token_1ax6
+    secret: true
+  - key: bearer_token_0z9u
+    secret: true
+  - key: json_web_token_0619
+    secret: true

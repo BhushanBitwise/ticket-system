@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:3000/api/users/agents/6ab945c6898978ebdbed013b
+method: GET
+headers:
+  Authorization: "{{bearer_token_194a}}"
+order: 3000
